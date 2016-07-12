@@ -12,31 +12,26 @@ w= False
 while w != True:
 
 	p= str(input("ingrese que poscicion quiere, jugador 1: "))
-
+	p_valor= ord (p)-65
+	p_fila= p_valor % 3
+	p_columna= p_valor//3
+	
 	if p=="a":
 		l[0][0]="x"
-
 	if p=="b":
 		l[0][1]="x"
-
 	if p=="c":
 		l[0][2]="x"
-
 	if p=="d":
 		l[1][0]="x"
-
 	if p=="e":
 		l[1][1]="x"
-
 	if p=="f":
 		l[1][2]="x"
-
 	if p=="g":
 		l[2][0]="x"
-
 	if p=="h":
 		l[2][1]="x"
-
 	if p=="i":
 		l[2][2]="x"
 
